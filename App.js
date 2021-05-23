@@ -5,10 +5,13 @@ import HomeSc from './Screens/HomeSc';
 import { AppDrawerNavigator } from './Comps/AppDrawer'
 
 
-export default function App(){
-    return(
-        <AppContainer/>
-    );
+export default class App extends React.Component{
+    render(){
+        return(
+            
+        );
+    }
+    
 }
 
 const switchNavigator = createSwitchNavigator({

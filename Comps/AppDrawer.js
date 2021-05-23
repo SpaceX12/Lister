@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { createDrawerNavigator } from 'react-navigation-drawer';
-import HomeSc from '../Screens/HomeSc'
+import ListSc from '../Screens/ListSc'
 
 export const AppDrawerNavigator = createDrawerNavigator({
-    Home_Screen:{
-        screen : HomeSc
+    List_Screen:{
+        screen : ListSc
     }
 },
 {
-    initialRouteName:'Home_Screen'
+    initialRouteName:'List_Screen'
 })
